@@ -1,0 +1,103 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-12-25T23:57:34.006Z",
+        "line": 4,
+        "name": "Buscar en Google la palabra “automatización”",
+        "description": "",
+        "id": "ejercicio-2:-automatización-de-una-web;buscar-en-google-la-palabra-“automatización”",
+        "after": [
+          {
+            "result": {
+              "duration": 2794000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12821039000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should be able to go url",
+            "match": {
+              "location": "stepdefinitions.Buscar_en_Google_SD.userShouldBeAbleToGoUrl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3097927000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should be able to write \"automatización\" search input",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"automatización\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepdefinitions.Buscar_en_Google_SD.userShouldBeAbleToWriteSearchInput(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3805180000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user search wikipedia link",
+            "match": {
+              "location": "stepdefinitions.Buscar_en_Google_SD.userSearchWikipediaLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 783278000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "take a screen shot wikipeda",
+            "match": {
+              "location": "stepdefinitions.Buscar_en_Google_SD.takeAScreenShotWikipeda()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Ejercicio 2: Automatización de una web",
+    "description": "",
+    "id": "ejercicio-2:-automatización-de-una-web",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Buscar_en_Google.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

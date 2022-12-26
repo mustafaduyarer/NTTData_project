@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="20.882">
+    <testcase classname="Ejercicio 2: Automatización de una web" name="Buscar en Google la palabra “automatización”" time="20.617">
+        <system-out>
+            <![CDATA[Given user should be able to go url.........................................passed
+When user should be able to write "automatización" search input.............passed
+When user search wikipedia link.............................................passed
+Then take a screen shot wikipeda............................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
